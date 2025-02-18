@@ -143,4 +143,3 @@ document.getElementById("previous").addEventListener("click", () => {
   gif.style.opacity = 1;
 });
 
-let temp = Math.random();
