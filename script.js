@@ -142,3 +142,5 @@ document.getElementById("previous").addEventListener("click", () => {
   masterPlay.classList.add("fa-circle-pause");
   gif.style.opacity = 1;
 });
+
+let temp = Math.random();
