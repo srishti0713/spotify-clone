@@ -4,93 +4,153 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
+    <link rel="icon" type="image/png"href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav>
       <ul>
         <li class="brand">
-          <img src="pngwing.com.png" alt="Spotify" />Spotify
+          <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_White.png" alt="Spotify" />
         </li>
-        <li>Home</li>
-        <li>About</li>
+        <li><div class="home"><i class="fa-solid fa-house"></i>
+          </div>
+         
+       <li>
+        <div class="searchBar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" size="60" placeholder="What do you want to play?">
+        </div>
+      </li>
+      <li>
+        <div class="buttons">
+          <b>Premium</b>
+          <b>Support</b>
+          <b>Download</b>
+          <p>|</p>
+          <a href="https://open.spotify.com/download">Install App</a>
+          <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fdownload">Sign Up</a>
+          <button class="logIn">
+            <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2Fdownload">Log in</a>
+          </button>
+        </div>
+      </li>
       </ul>
     </nav>
     <div class="content">
       <div class="left">
-        <h2>Popular artists</h2>
+        <h1>Popular artists</h1>
+        <div class="artist">
+        <img src="https://imgs.search.brave.com/XtOdQ8wX97ghjEQQyQTwhSkWf73t_dlYhB2LSLeEW-Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jLnNh/YXZuY2RuLmNvbS9h/cnRpc3RzL0FyaWpp/dF9TaW5naF8wMDRf/MjAyNDExMTgwNjM3/MTdfNTAweDUwMC5q/cGc" alt="arijit singh">
+        Arijit Singh
+        <p>Artist</p>
+      </div>
+      <div class="artist">
+        <img src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84" alt="atif aslam">
+        Atif Aslam
+        <p>Artist</p>
+      </div>
       </div>
     <div class="container">
       <div class="songList">
-        
         <div class="albumDesc">
           <img class="albumimg" alt="img">
           <b>Best of NCS -No Copyright Sounds</b>
         </div>
-        
-        
         <div class="songItemContainer">
           <div class="songItem">
             <img alt="1" />
-            <span class="songName" > Song 1</span>
+            <span class="songName" > </span>
             <span class="songlistplay">
-              <span class="timestamp">
-                05:34
+              <div class="timestamp">
+               <span class="add"> 
+                <i class="fa-solid fa-circle-plus"></i>
+               <div class="tooltip">Add to Liked Songs</div>
+              </span>
+               
+                00:43
                 <i id="0" class="fa-regular songItemPlay fa-circle-play"></i>
-              </span>
+              
+              </div>
             </span>
           </div>
           <div class="songItem">
             <img alt="1" />
-            <span  class="songName" > Song 2</span>
+            <span  class="songName" > </span>
             <span class="songlistplay">
-              <span class="timestamp">
-                05:34
+              <div class="timestamp">
+               <span class="add"> <i class="fa-solid fa-circle-plus"></i>
+               <div class="tooltip">Add to Liked Songs</div>
+              </span>
+               
+                00:24
                 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i>
-              </span>
+              
+              </div>
             </span>
           </div>
           <div class="songItem">
             <img alt="1" />
-            <span  class="songName" > Song 3</span>
+            <span  class="songName" > </span>
             <span class="songlistplay">
-              <span class="timestamp">
-                05:34
+              <div class="timestamp">
+               <span class="add"> <i class="fa-solid fa-circle-plus"></i>
+               <div class="tooltip">Add to Liked Songs</div>
+              </span>
+               
+                01:05
                 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i>
-              </span>
+              
+              </div>
             </span>
           </div>
           <div class="songItem">
             <img alt="1" />
-            <span  class="songName" > Song 4</span>
+            <span  class="songName" > </span>
             <span class="songlistplay">
-              <span class="timestamp">
-                05:34
+              <div class="timestamp">
+               <span class="add"> <i class="fa-solid fa-circle-plus"></i>
+               <div class="tooltip">Add to Liked Songs</div>
+              </span>
+               
+                01:24
                 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i>
-              </span>
+              
+              </div>
             </span>
           </div>
           <div class="songItem">
             <img alt="1" />
-            <span  class="songName" > Song 5</span>
+            <span  class="songName" > </span>
             <span class="songlistplay">
-              <span class="timestamp">
-                05:34
-                <i id="4" class="fa-regular songItemPlay fa-circle-play"></i>
+              <div class="timestamp">
+               <span class="add"> <i class="fa-solid fa-circle-plus"></i>
+               <div class="tooltip">Add to Liked Songs</div>
               </span>
+               02:00
+                <i id="4" class="fa-regular songItemPlay fa-circle-play"></i>
+              
+              </div>
             </span>
           </div>
         </div>
       </div>
       </div>
-      <div class="right">
-        <h1>song playing</h1>
-      </div>
+      <!-- <div class="right">
+        <h1>so</h1>
+      </div> -->
     </div>
       <div class="songBanner"></div>
     </div>
     <div class="bottom">
-      <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0" />
+      <div id="songBar">
+        <p id="timeUpdate"></p>
+       <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0" />
+       <p id="songDuration"></p>
+       <i class="fa-solid fa-volume-off"></i>
+       <input type="range" id="volumeSlider" min="0" max="100" value="100">
+       <i class="fa-solid fa-volume-high"></i>
+     </div>
       <div class="icons">
         <!-- fontawesome icons -->
         <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
